@@ -37,7 +37,7 @@ public class Rational {
         return denominator;
     }
     
-    
+    // negate is void because it modifies the object and does not return anything
     public void negate() {
         numerator = -numerator;
     }
